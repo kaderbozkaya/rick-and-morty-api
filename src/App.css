@@ -1,0 +1,22 @@
+
+.break-me {
+  cursor: default;
+} 
+
+  
+.pagination {
+  margin: 2rem;
+  color: #166534;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.pagination li {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination li.active {
+  font-weight: bold;
+}
